@@ -10,7 +10,6 @@ function update()
 				if (now_url == tab.url)	alert(last_url + "-->" + tab.url + "\n" + last_title + "-->" + tab.title);
 				flag = false;
 			}
-			//else alert(tab.title);
 			last_title = now_title;
 			last_url = now_url;
 			now_title = tab.title;
